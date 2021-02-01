@@ -29,7 +29,6 @@ export class ToDoService {
             {deleted: false, creatorUsername: creatorUsername},
             {deleted: false, userName: creatorUsername}
           ]).exec();
-        console.log("response", response);
         return {
             success: true,
             data: response,

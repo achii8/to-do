@@ -12,6 +12,7 @@ import { LoggerMiddleware } from './middleware/logger.middleware';
     MongooseModule.forRoot('mongodb+srv://achii8:beyonce123@a1.xsw32.mongodb.net/to-do?retryWrites=true&w=majority')],
     // controllers: [AppController],
     // providers: [AppService],
+    
 })
 export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
