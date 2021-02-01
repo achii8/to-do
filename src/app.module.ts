@@ -9,7 +9,7 @@ import { LoggerMiddleware } from './middleware/logger.middleware';
 @Module({
   imports: [
     ToDoModule,
-    MongooseModule.forRoot('mongodb+srv://achii8:beyonce123@a1.xsw32.mongodb.net/to-do?retryWrites=true&w=majority')],
+    MongooseModule.forRoot('mongodb+srv://userName:paroli@a1.xsw32.mongodb.net/to-do?retryWrites=true&w=majority')],
     // controllers: [AppController],
     // providers: [AppService],
     
